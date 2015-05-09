@@ -58,6 +58,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Images\Bar.png" />
+    <Content Include="Images\Bell.png" />
+    <Content Include="Images\Cherry.png" />
+    <Content Include="Images\Clover.png" />
+    <Content Include="Images\Diamond.png" />
+    <Content Include="Images\HorseShoe.png" />
+    <Content Include="Images\Lemon.png" />
+    <Content Include="Images\Orange.png" />
+    <Content Include="Images\Plum.png" />
+    <Content Include="Images\Seven.png" />
+    <Content Include="Images\Strawberry.png" />
+    <Content Include="Images\Watermellon.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +83,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

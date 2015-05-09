@@ -15,8 +15,7 @@
         <asp:Image ID="reelThreeImage" runat="server" Height="150px" Width="150px" />
         <br />
         <br />
-        Your Bet:
-        <asp:TextBox ID="betTextBox" runat="server"></asp:TextBox>
+        Your Bet: <asp:TextBox ID="betTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
         <asp:Button ID="pullLeverButton" runat="server" OnClick="pullLeverButton_Click" Text="Pull The Lever!" />
