@@ -10,7 +10,29 @@
     <form id="form1" runat="server">
     <div>
     
-    </div>
+        <asp:Image ID="reelOneImage" runat="server" Height="150px" Width="150px" />
+        <asp:Image ID="reelTwoImage" runat="server" Height="150px" Width="150px" />
+        <asp:Image ID="reelThreeImage" runat="server" Height="150px" Width="150px" />
+        <br />
+        <br />
+        Your Bet:
+        <asp:TextBox ID="betTextBox" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Button ID="pullLeverButton" runat="server" OnClick="pullLeverButton_Click" Text="Pull The Lever!" />
+        <br />
+        <br />
+        <asp:Label ID="resultLabel" runat="server"></asp:Label>
+        <br />
+        <br />
+        <asp:Label ID="moneyLabel" runat="server"></asp:Label>
+        <br />
+        <br />
+        1 Cherry - x2 Your Bet<br />
+        2 Cherries - x3 Your Bet<br />
+        3 Cherries - x4 Your Bet<br />
+        3 7&#39;s - Jackpot - x100 Your Bet<br />
+        HOWEVER ... if there&#39;s even one BAR you win nothing</div>
     </form>
 </body>
 </html>
